@@ -29,11 +29,11 @@ def load_data():
 df_denue_jal = load_data()
 
 def main():
-    st.title('Prospectos') #h1
+    st.title('GeoProspectos') #h1
     st.header('Unidades económicas') #h2
     
     st.set_page_config(
-    page_title = 'Prospectos',
+    page_title = 'GeoProspectos',
     page_icon = '🌐',
     layout = 'wide',
     initial_sidebar_state = 'expanded'
@@ -99,4 +99,5 @@ def main():
                  'Correo electrónico', 'Sitio en Internet', 'Tipo de establecimiento']])
 
 if __name__ == '__main__':
+
     main()
